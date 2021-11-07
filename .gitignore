@@ -1,0 +1,7 @@
+Data
+.vscode
+.idea
+venv
+poetry.lock
+.DS_Store
+*.pyc
