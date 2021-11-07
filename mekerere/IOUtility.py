@@ -9,7 +9,3 @@ def crop_and_resize_on_bounding_box(filename, x_coord, y_coord, height, width):
     dimension = (width, height)
     resized = cv.resize(cropped_image, dimension, interpolation=cv.INTER_AREA)
     return resized
-
-
-def write_image_to_file(filename, image):
-    cv.imwrite(filename, image)
