@@ -10,6 +10,13 @@ jupyter = "^1.0.0"
 notebook = "^6.4.5"
 opencv-python = "^4.5.4"
 pandas = "^1.3.4"
+torch = "^1.10.0"
+matplotlib = "^3.4.3"
+sklearn = "^0.0"
+albumentations = "^1.1.0"
+torchvision = "^0.11.1"
+ipynb = "^0.5.1"
+wandb = "^0.12.6"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
